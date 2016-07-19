@@ -4,6 +4,7 @@
   "description": "ffmpeg static binaries for Mac OSX and Linux and Windows",
   "main": "index.js",
   "scripts": {
+    "install": "node lib/gitStaticBuild.js",
     "test": "node_modules/.bin/tape test/*.js"
   },
   "repository": {
@@ -25,7 +26,13 @@
   "bugs": {
     "url": "https://github.com/eugeneware/ffmpeg-static/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "decompress": "^4.0.0",
+    "decompress-tarxz": "^2.0.0",
+    "glob": "^7.0.5",
+    "mt-files-downloader": "^0.2.5",
+    "rimraf": "^2.5.3"
+  },
   "devDependencies": {
     "tape": "~2.3.2"
   }
