@@ -1,5 +1,7 @@
 # ffmpeg-static
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/direktspeed/ffmpeg-static.svg)](https://greenkeeper.io/)
+
 ffmpeg static binaries for Mac OSX and Linux and Windows
 
 [![build status](https://secure.travis-ci.org/eugeneware/ffmpeg-static.png)](http://travis-ci.org/eugeneware/ffmpeg-static)
